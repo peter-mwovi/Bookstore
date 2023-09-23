@@ -1,12 +1,6 @@
-// import React, { useState } from 'react';
-import Button from './Button.js';
+import React from 'react';
 
 function Categorylist() {
-  // const [category, displayCategory] = useState({
-  //   id: null,
-  //   category: null,
-  // });
-
   return (
     <div className="categorylist">
       <h3>Categories list</h3>
