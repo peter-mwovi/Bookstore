@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+
+code {
+  font-family:
+    'Courier New',
+    monospace;
+}
+
+.robotoslab {
+  font-family: RobotoSlab, serif;
+}
+
+.montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+#root {
+  background-color: rgb(245, 245, 245);
+}
