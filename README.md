@@ -24,7 +24,7 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 Bookstore: add reducers and actions <a name="about-project"></a>
+# 📖 Bookstore: Use Redux in React components. <a name="about-project"></a>
 
 **Bookstore** It's a simple website app to display a collection of books.
 
