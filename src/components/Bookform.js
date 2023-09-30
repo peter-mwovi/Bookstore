@@ -1,17 +1,21 @@
 import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addBook } from '../redux/books/booksSlice';
 
 const Bookform = () => {
-  const [title] = useState('');
-  const [author] = useState('');
-
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
+  const dispatch = useDispatch();
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-  };
 
-  // Clear the input fields after submission
-  // setTitle('');
-  // setAuthor('');
+    // Dispatch the addBook action
+    dispatch(addBook({ title, author }));
+
+    // Clear the input fields after submission
+    setTitle('');
+    setAuthor('');
+  };
 
   return (
     <form className="addBookForm" onSubmit={handleSubmit}>
@@ -23,6 +27,7 @@ const Bookform = () => {
         maxLength="50"
         required
         value={title}
+        onChange={(e) => setTitle(e.target.value)}
       />
       <input
         type="text"
@@ -32,6 +37,7 @@ const Bookform = () => {
         maxLength="50"
         required
         value={author}
+        onChange={(e) => setAuthor(e.target.value)}
       />
       <button type="submit" className="bookbutton">
         ADD BOOK

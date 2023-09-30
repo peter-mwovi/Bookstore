@@ -1,15 +1,22 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { checkStatus } from '../redux/categories/categoriesSlice';
 
-const Categories = () => (
-  <div className="divcategories">
-    <h3>List of book categories!</h3>
-    <ul className="ulcategory">
-      <li>Action</li>
-      <li>Science Fiction</li>
-      <li>Economy</li>
-      <li>Travel</li>
-    </ul>
-  </div>
-);
+const Categories = () => {
+  let categories = useSelector((state) => state.categories);
+  const dispatch = useDispatch();
+  const categoriesState = dispatch(checkStatus());
+  if (categoriesState === 'Under construction!') {
+    categories = categoriesState;
+  }
+  return (
+    <div className="divcategories">
+      <h3>Categories list...</h3>
+      <div className="categoryitem">
+        {categories}
+      </div>
+    </div>
+  );
+};
 
 export default Categories;
