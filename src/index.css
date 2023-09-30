@@ -10,7 +10,7 @@ code {
 }
 
 .robotoslab {
-  font-family: RobotoSlab, serif;
+  font-family: Roboto Slab, serif;
 }
 
 .montserrat {
@@ -19,4 +19,5 @@ code {
 
 #root {
   background-color: rgb(245, 245, 245);
+  padding-bottom: 60px;
 }
