@@ -1,0 +1,330 @@
+.App {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-left: 65px;
+  padding-top: 5px;
+  color: darkgray;
+}
+
+h4 {
+  margin-left: 20px;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.divnavbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+
+.navbar {
+  display: flex;
+  padding-right: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: grey;
+  width: 50px;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  padding-top: 8px;
+  padding-left: 10px;
+}
+
+a:hover,
+a:active {
+  color: black;
+  font-weight: bold;
+}
+
+.sitename {
+  color: #0290ff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.booklist {
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.bookdetails {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.libook {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.bookslisth3 {
+  margin: 5px 0 5px 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 0 0 1px 0;
+}
+
+.div1 {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 90px;
+}
+
+.div2 {
+  max-height: 62px;
+  width: 150px;
+  margin-right: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.div3 {
+  margin-right: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.categorysize {
+  font-size: 0.8rem;
+  color: darkgray;
+  font-weight: bold;
+}
+
+.titlesize {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.authorsize {
+  font-size: 0.9rem;
+  color: #4386bf;
+  font-weight: lighter;
+}
+
+.newbook {
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.divnewbook {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  height: 80px;
+}
+
+.bookform {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divcategories {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 95%;
+  height: 65vh;
+  margin-left: 2.5%;
+  padding-bottom: 5px;
+}
+
+.categoryitem {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.ulcategory {
+  margin-left: 20px;
+}
+
+.bottom {
+  height: 20px;
+}
+
+.userimg {
+  margin-right: 40px;
+  margin-top: 12px;
+}
+
+.lightbutton1 {
+  background-color: transparent;
+  border: none;
+  color: #4386bf;
+  font-size: 1rem;
+  font-weight: lighter;
+  width: 94px;
+  padding-left: 0;
+}
+
+.lightbutton1:hover,
+.lightbutton1:active {
+  background-color: transparent;
+  border: none;
+  color: #025caa;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.lightbutton2 {
+  background-color: transparent;
+  border: none;
+  color: #4386bf;
+  font-size: 1rem;
+  font-weight: lighter;
+  width: 75px;
+  padding-left: 0;
+}
+
+.lightbutton2:hover,
+.lightbutton2:active {
+  background-color: transparent;
+  border: none;
+  color: #025caa;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.lightbutton3 {
+  background-color: transparent;
+  border: none;
+  color: #4386bf;
+  font-size: 1rem;
+  font-weight: lighter;
+  width: 45px;
+  padding-left: 0;
+}
+
+.lightbutton3:hover,
+.lightbutton3:active {
+  background-color: transparent;
+  border: none;
+  color: #025caa;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.buttonbook {
+  background-color: #0290ff;
+  color: rgb(255, 255, 255);
+  font-size: 0.7rem;
+  font-weight: lighter;
+  border: transparent;
+  width: 135px;
+  padding: 8px 12px;
+}
+
+.buttonbook:hover,
+.buttonbook:active {
+  background-color: rgb(2, 108, 214);
+  color: rgb(255, 255, 255);
+  border: transparent;
+  font-weight: bold;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+}
+
+input {
+  width: 220px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.inputclass {
+  margin-left: 20px;
+}
+
+.addBookForm {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.bookbutton {
+  margin-right: 50px;
+  width: 130px;
+  height: 35px;
+  font-size: 0.7rem;
+  font-weight: normal;
+  background-color: #0290ff;
+  color: rgb(255, 255, 255);
+}
+
+.bookbutton:hover,
+.bookutton:active {
+  margin-right: 50px;
+  width: 130px;
+  height: 35px;
+  font-weight: bold;
+  background-color: rgb(2, 108, 214);
+  border: none;
+}
+
+.chaptertext {
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: #121212;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.chapter {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #121212;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.circle {
+  margin-right: 20px;
+}
+
+.completed {
+  font-size: 0.7rem;
+  font-weight: lighter;
+  margin: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.percentage {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
