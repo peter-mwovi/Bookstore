@@ -21,9 +21,9 @@ const Bookdetails = ({ book }) => {
           </span>
         </div>
         <div>
-          <button type="button" className="lightbutton1">Comments</button>
-          <Button className="lightbutton2" onClick={handleRemoveBook} label="Remove" />
-          <button type="button" className="lightbutton3">Edit</button>
+          <button type="button" className="lightbutton1 robotoslab">Comments</button>
+          <Button className="lightbutton2 robotoslab" onClick={handleRemoveBook} label="Remove" />
+          <button type="button" className="lightbutton3 robotoslab">Edit</button>
         </div>
       </div>
       <div className="div2">
@@ -34,8 +34,8 @@ const Bookdetails = ({ book }) => {
         </div>
       </div>
       <div className="div3">
-        <p className="chaptertext">CURRENT CHAPTER</p>
-        <p className="chapter">Chapter 17</p>
+        <p className="chaptertext robotoslab">CURRENT CHAPTER</p>
+        <p className="chapter robotoslab">Chapter 17</p>
         <button type="button" className="buttonbook robotoslab">UPDATE PROGRESS</button>
       </div>
     </>
