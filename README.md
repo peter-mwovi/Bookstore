@@ -24,7 +24,7 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 Bookstore: connect to API. <a name="about-project"></a>
+# 📖 Bookstore: styling <a name="about-project"></a>
 
 **Bookstore** It's a simple website app to display a collection of books.
 
