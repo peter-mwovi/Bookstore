@@ -24,7 +24,7 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 Bookstore: initialize project with components <a name="about-project"></a>
+# 📖 Bookstore: add reducers and actions <a name="about-project"></a>
 
 **Bookstore** It's a simple website app to display a collection of books.
 
