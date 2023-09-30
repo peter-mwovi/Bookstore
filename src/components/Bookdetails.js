@@ -8,7 +8,7 @@ import Button from './Button';
 const Bookdetails = ({ book }) => {
   const dispatch = useDispatch();
   const handleRemoveBook = () => {
-    dispatch(removeBook(book.id));
+    dispatch(removeBook(book.item_id));
   };
   return (
     <>
@@ -44,7 +44,7 @@ const Bookdetails = ({ book }) => {
 
 Bookdetails.propTypes = {
   book: PropTypes.shape({
-    id: PropTypes.string.isRequired,
+    item_id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
     category: PropTypes.string,

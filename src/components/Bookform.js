@@ -10,13 +10,15 @@ const Bookform = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const newId = Date.now().toString();
 
-    // Dispatch the addBook action
-    dispatch(addBook({ title, author }));
-
-    // Clear the input fields after submission
-    setTitle('');
-    setAuthor('');
+    if (title && author) {
+      dispatch(addBook({
+        item_id: newId, title, author, category: 'General',
+      }));
+      setTitle('');
+      setAuthor('');
+    }
   };
 
   return (
